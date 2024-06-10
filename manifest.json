@@ -1,0 +1,16 @@
+{
+    "name" : "Random Joke",
+    "description" : "Get random jokes from an api",
+    "version" : "1.0",
+    "manifest_version" : 3,
+    "action" : {
+        "default_popup" : "popup.html",
+        "default_icon" : "icon.png"
+    },
+    "browser_specific_settings": {
+        "gecko": {
+          "id": "ashish232@test.com",
+          "strict_min_version": "91.0"
+        }
+      }
+}
